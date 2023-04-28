@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@media screen and (max-width: 768px){
+    .navbar-brand img{
+        width: 110px;
+}
+}
+
+.bg-home{
+    background-color: #fbf3eb;
+    border-bottom: 1px solid #e9bfbf;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+.nav-item{
+    padding: 0px 15px;
+}
+
+.titulo__container {
+    text-align: center;
+    padding: 30px 0px;
+    color: rgb(6, 77, 3);
+    background-color: #fbf3eb;
+    border: 0.5px solid #ffefde;
+    margin: 15px 0px;;
+}
+
+.img__container{
+    height: 100%;
+    width: 100%;
+}
+
+.card-text{
+    padding-top: 9px;
+}
+
+.carusel__container img{
+    transition:0.5s;
+    object-fit: cover;
+    overflow: hidden;
+    border: 1px solid rgba(209, 209, 209, 0.856);
+}
+
+.carusel__container img:hover{
+    transform: scale(1.05);
+}
+
+footer{
+    background-color: #fbf3eb;
+    text-align: center;
+    margin-top:20px ;
+}
+
+.footer__copyright{
+    background-color: antiquewhite;
+    padding: 15px;
+}
+
+.card__container{
+    background-color: rgb(255, 255, 211);
+}
+
+.button__servicios{
+    text-decoration: none;
+    background-color: black;
+    color: #fbf3eb;
+    padding: 6px;
+    border-radius: 5px;
+    align-self: end;    
+}
